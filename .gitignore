@@ -1,0 +1,248 @@
+*.idea/
+.idea/
+*.terraform.lock.hcl
+*.vscode/
+venv/
+
+
+eks-admin-cluster-role-binding.yaml
+eks-admin-service-account.yaml
+config-map-aws-auth*.yaml
+kubeconfig_*
+.idea
+
+#################################################################
+# Default .gitignore content for all terraform-aws-modules below
+#################################################################
+
+.DS_Store
+
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform lockfile
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files, which are likely to contain sentitive data, such as
+# password, private keys, and other secrets. These should not be part of version
+# control as they are data points which are potentially sensitive and subject
+# to change depending on the environment.
+*.tfvars
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Folders
+.terrafrom
+.terragrunt-cache
+
+*.iml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+venv
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+MANIFEST
+flux.sh
+logs
+airflow/local/vnev/pyvenv.cfg
+airflow/local/vnev/bin/activate
+airflow/local/vnev/bin/activate-global-python-argcomplete
+airflow/local/vnev/bin/activate.csh
+airflow/local/vnev/bin/activate.fish
+airflow/local/vnev/bin/Activate.ps1
+airflow/local/vnev/bin/airflow
+airflow/local/vnev/bin/alembic
+airflow/local/vnev/bin/chardetect
+airflow/local/vnev/bin/cmark
+airflow/local/vnev/bin/connexion
+airflow/local/vnev/bin/docutils
+airflow/local/vnev/bin/email_validator
+airflow/local/vnev/bin/f2py
+airflow/local/vnev/bin/f2py3
+airflow/local/vnev/bin/f2py3.10
+airflow/local/vnev/bin/fabmanager
+airflow/local/vnev/bin/fixup_automl_v1_keywords.py
+airflow/local/vnev/bin/fixup_automl_v1beta1_keywords.py
+airflow/local/vnev/bin/fixup_bigquery_datatransfer_v1_keywords.py
+airflow/local/vnev/bin/fixup_bigquery_storage_v1_keywords.py
+airflow/local/vnev/bin/fixup_cloudbuild_v1_keywords.py
+airflow/local/vnev/bin/fixup_container_v1_keywords.py
+airflow/local/vnev/bin/fixup_container_v1beta1_keywords.py
+airflow/local/vnev/bin/fixup_datacatalog_v1_keywords.py
+airflow/local/vnev/bin/fixup_datacatalog_v1beta1_keywords.py
+airflow/local/vnev/bin/fixup_dataproc_v1_keywords.py
+airflow/local/vnev/bin/fixup_kms_v1_keywords.py
+airflow/local/vnev/bin/fixup_monitoring_v3_keywords.py
+airflow/local/vnev/bin/fixup_oslogin_v1_keywords.py
+airflow/local/vnev/bin/fixup_pubsub_v1_keywords.py
+airflow/local/vnev/bin/fixup_redis_v1_keywords.py
+airflow/local/vnev/bin/fixup_redis_v1beta1_keywords.py
+airflow/local/vnev/bin/fixup_tasks_v2_keywords.py
+airflow/local/vnev/bin/fixup_tasks_v2beta2_keywords.py
+airflow/local/vnev/bin/fixup_tasks_v2beta3_keywords.py
+airflow/local/vnev/bin/flask
+airflow/local/vnev/bin/futurize
+airflow/local/vnev/bin/get_objgraph
+airflow/local/vnev/bin/google-oauthlib-tool
+airflow/local/vnev/bin/gunicorn
+airflow/local/vnev/bin/httpx
+airflow/local/vnev/bin/json-merge-patch
+airflow/local/vnev/bin/jsonschema
+airflow/local/vnev/bin/mako-render
+airflow/local/vnev/bin/markdown_py
+airflow/local/vnev/bin/markdown-it
+airflow/local/vnev/bin/normalizer
+airflow/local/vnev/bin/nvd3
+airflow/local/vnev/bin/pasteurize
+airflow/local/vnev/bin/pip
+airflow/local/vnev/bin/pip3
+airflow/local/vnev/bin/pip3.10
+airflow/local/vnev/bin/plasma_store
+airflow/local/vnev/bin/pybabel
+airflow/local/vnev/bin/pygmentize
+airflow/local/vnev/bin/pyrsa-decrypt
+airflow/local/vnev/bin/pyrsa-encrypt
+airflow/local/vnev/bin/pyrsa-keygen
+airflow/local/vnev/bin/pyrsa-priv2pub
+airflow/local/vnev/bin/pyrsa-sign
+airflow/local/vnev/bin/pyrsa-verify
+airflow/local/vnev/bin/python
+airflow/local/vnev/bin/python-argcomplete-check-easy-install-script
+airflow/local/vnev/bin/python-argcomplete-tcsh
+airflow/local/vnev/bin/python3
+airflow/local/vnev/bin/python3.10
+airflow/local/vnev/bin/register-python-argcomplete
+airflow/local/vnev/bin/rst2html.py
+airflow/local/vnev/bin/rst2html4.py
+airflow/local/vnev/bin/rst2html5.py
+airflow/local/vnev/bin/rst2latex.py
+airflow/local/vnev/bin/rst2man.py
+airflow/local/vnev/bin/rst2odt_prepstyles.py
+airflow/local/vnev/bin/rst2odt.py
+airflow/local/vnev/bin/rst2pseudoxml.py
+airflow/local/vnev/bin/rst2s5.py
+airflow/local/vnev/bin/rst2xetex.py
+airflow/local/vnev/bin/rst2xml.py
+airflow/local/vnev/bin/rstpep2html.py
+airflow/local/vnev/bin/slugify
+airflow/local/vnev/bin/sqlformat
+airflow/local/vnev/bin/tabulate
+airflow/local/vnev/bin/tb-gcp-uploader
+airflow/local/vnev/bin/undill
+airflow/local/vnev/generated/provider_dependencies.json
+airflow/local/vnev/include/site/python3.10/greenlet/greenlet.h

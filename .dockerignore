@@ -1,0 +1,8 @@
+# IDEA and Git
+.idea
+.git
+.gitignore
+
+# Exclude other project files
+README.md
+Jenkinsfile*

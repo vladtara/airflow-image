@@ -1,0 +1,6 @@
+boto
+httpx
+apache-airflow-providers-telegram
+apache-airflow-providers-openai
+apache-airflow-providers-slack
+apache-airflow-providers-github
